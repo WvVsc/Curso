@@ -1,0 +1,22 @@
+div {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 10px solid green;
+}
+
+.com-boder-box {
+    background-color: aquamarine;
+    box-sizing: border-box;
+}
+
+.sem-boder-box {
+    background-color: brown;
+}
+
+/* largura border + paddign + padding + border = largura total do elemento 
+altura border + paddign + padding + border = largura total do elemento
+
+100+10+10+100=140
+
+*/

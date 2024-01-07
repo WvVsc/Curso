@@ -1,0 +1,10 @@
+/* #descricao-pc, #descricao-vg {
+    background-color: orange;
+} */
+.descricao-produto {
+    background-color: orange;
+    color: red;
+}
+.promocao {
+    border: solid 10px green;
+}

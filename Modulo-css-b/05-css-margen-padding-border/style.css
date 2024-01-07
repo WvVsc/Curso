@@ -1,0 +1,34 @@
+/* margin-top: 30px;
+margin-bottom: 30px;
+margin-left: 15px;
+margin-right: 15px;
+margin: 30px;
+margin: 30px 15px;
+margin: 30px 15px 30px 15px;
+
+padding mesma coisa da margin
+
+border: solid 5px;
+border-style: solid;
+border-top-color: green;
+border-bottom-color: orange;
+border-left-color: blueviolet;
+border-right-color: cyan;
+border-color: green cyan orange blueviolet;
+border-color: red;
+border-width: 20px;
+border: 20px solid red;
+
+mesma coisa de formas diferentes sempre priorizar o menor */
+p {
+    margin: 30px 15px;
+    padding: 20px;
+    background-color: aqua;
+    border: 20px solid red;
+}
+h1 {
+    border-style: solid;
+    border-width: 20px;
+    border-color: green cyan orange blueviolet;
+
+}
