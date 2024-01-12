@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'exemplo';
+    src: url('./fonts/fonte-baixa.ttf'), url('./fonts/fonte-baixa.ttf');
+}
+
+p {
+    font-family: 'exemplo', Helvetica, sans-serif;
+}
