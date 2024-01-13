@@ -1,0 +1,28 @@
+.float .esqueda {
+    float: left;
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+}
+
+.float .direita {
+    float: right;
+    background-color: rgb(46, 233, 9);
+    height: 100px;
+    width: 100px;
+}
+
+
+.float::after {
+    content: "";
+    display: block;
+    clear: both;
+};
+
+.img {
+    float: left;
+    margin-right: 20px;
+    height: 100px;
+    width: 100px;
+}
+
