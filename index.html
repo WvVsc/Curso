@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,61 +9,97 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
     <h1>Seleção de aula</h1>
-    <div>
-        <h2>modulo html basico</h2>
-        <a href="./Modulo-html-b/01-primeiro-html/index.html">aula 1</a>
-        <a href="./Modulo-html-b/02-titulos-paragrafos/index.html">aula 2</a>
-        <a href="./Modulo-html-b/03-formatacao-de-texto/index.html">aula 3</a>
-        <a href="./Modulo-html-b/04-comentarios/index.html">aula 4</a>
-        <a href="./Modulo-html-b/05-links-externos/index.html">aula 5</a>
-        <a href="./Modulo-html-b/06-links-internos/index.html">aula 6</a>
-        <a href="./Modulo-html-b/07-imagens/index.html">aula 7</a>
-        <a href="./Modulo-html-b/08-listas/index.html">aula 8</a>
-        <a href="./Modulo-html-b/09-tabelas/index.html">aula 9</a>
-    </div>
 
     <div>
-        <h2>modulo css basico</h2>
-        <a href="./Modulo-css-b/01-css-inline/index.html">aula 1</a>
-        <a href="./Modulo-css-b/02-css-interno/index.html">aula 2</a>
-        <a href="./Modulo-css-b/03-css-externo/index.html">aula 3</a>
-        <a href="./Modulo-css-b/04-css-cores/index.html">aula 4</a>
-        <a href="./Modulo-css-b/05-css-margen-padding-border/index.html">aula 5</a>
-        <a href="./Modulo-css-b/06-modelos-de-caixas/index.html">aula 6</a>
-        <a href="./Modulo-css-b/07-tipos-caixas/index.html">aula 7</a>
-        <a href="./Modulo-css-b/08-ids-classes/index.html">aula 8</a>
-        <a href="./Modulo-css-b/09-divs-span/index.html">aula 9</a>
-        <a href="./Modulo-css-b/10-medidas-relativas/index.html">aula 10</a>
-        <a href="./Modulo-css-b/11-medidas-absolutas/index.html">aula 11</a>
-        <a href="./Modulo-css-b/12-box-sizing-boder-box/index.html">aula 12</a>
+        <label for="aulas">Aulas</label>
+        <select id="aulas">
+            <option value="" selected>Escolha a aula</option>
+            <optgroup label="html B">
+                <option value="./Modulo-html-b/01-primeiro-html/index.html">aula 1</option>
+                <option value="./Modulo-html-b/02-titulos-paragrafos/index.html">aula 2</option>
+                <option value="./Modulo-html-b/03-formatacao-de-texto/index.html">aula 3</option>
+                <option value="./Modulo-html-b/04-comentarios/index.html">aula 4</option>
+                <option value="./Modulo-html-b/05-links-externos/index.html">aula 5</option>
+                <option value="./Modulo-html-b/06-links-internos/index.html">aula 6</option>
+                <option value="./Modulo-html-b/07-imagens/index.html">aula 7</option>
+                <option value="./Modulo-html-b/08-listas/index.html">aula 8</option>
+                <option value="./Modulo-html-b/09-tabelas/index.html">aula 9</option>
+            </optgroup>
+
+            <optgroup label="css B">
+                <option value="./Modulo-css-b/01-css-inline/index.html">aula 1</option>
+                <option value="./Modulo-css-b/02-css-interno/index.html">aula 2</option>
+                <option value="./Modulo-css-b/03-css-externo/index.html">aula 3</option>
+                <option value="./Modulo-css-b/04-css-cores/index.html">aula 4</option>
+                <option value="./Modulo-css-b/05-css-margen-padding-border/index.html">aula 5</option>
+                <option value="./Modulo-css-b/06-modelos-de-caixas/index.html">aula 6</option>
+                <option value="./Modulo-css-b/07-tipos-caixas/index.html">aula 7</option>
+                <option value="./Modulo-css-b/08-ids-classes/index.html">aula 8</option>
+                <option value="./Modulo-css-b/09-divs-span/index.html">aula 9</option>
+                <option value="./Modulo-css-b/10-medidas-relativas/index.html">aula 10</option>
+                <option value="./Modulo-css-b/11-medidas-absolutas/index.html">aula 11</option>
+                <option value="./Modulo-css-b/12-box-sizing-boder-box/index.html">aula 12</option>
+            </optgroup>
+
+            <optgroup label="html I">
+                <option value="./Modulo-html-I/01-input-texto/index.html">aula 1</option>
+                <option value="./Modulo-html-I/02-input-number-password-submit/index.html">aula 2</option>
+                <option value="./Modulo-html-I/03-checkbox-radio/index.html">aula 3</option>
+                <option value="./Modulo-html-I/04-select/index.html">aula 4</option>
+                <option value="./Modulo-html-I/05-textarea/index.html">aula 5</option>
+                <option value="./Modulo-html-I/06-button/index.html">aula 6</option>
+                <option value="./Modulo-html-I/07-formulario/index.html">aula 7</option>
+                <option value="./Modulo-html-I/08-tag-semantica/index.html">aula 8</option>
+            </optgroup>
+
+            <optgroup label="css I">
+                <option value="./Modulo-css-I/01-especificidade-efeito-cascata/index.html">aula 1</option>
+                <option value="./Modulo-css-I/02-estilos-de-texto/index.html">aula 2</option>
+                <option value="./Modulo-css-I/03-propriedades-fontes/index.html">aula 3</option>
+                <option value="./Modulo-css-I/04-fontes-customizadas/index.html">aula 4</option>
+                <option value="./Modulo-css-I/05-baixando-fontes-customizadas/index.html">aula 5</option>
+                <option value="./Modulo-css-I/06-links/index.html">aula 6</option>
+                <option value="./Modulo-css-I/07-listas/index.html">aula 7</option>
+                <option value="./Modulo-css-I/08-backgrounds/index.html">aula 8</option>
+                <option value="./Modulo-css-I/09-display/index.html">aula 9</option>
+                <option value="./Modulo-css-I/10-position-static-relative-absolute/index.html">aula 10</option>
+                <option value="./Modulo-css-I/11-position-fixed/index.html">aula 11</option>
+                <option value="./Modulo-css-I/12-responsividade-media-queries/index.html">aula 12</option>
+            </optgroup>
+
+            <optgroup label="html A">
+                <option value="./Modulo-html-a/01-picture/index.html">aula 1</option>
+                <option value="./Modulo-html-a/02-favicon/index.html">aula 2</option>
+                <option value="./Modulo-html-a/03-caracteres-emoji/index.html">aula 3</option>
+                <option value="./Modulo-html-a/04-audio/index.html">aula 4</option>
+                <option value="./Modulo-html-a/05-videos/index.html">aula 5</option>
+            </optgroup>
+
+            <optgroup label="desafios">
+                <option value="./Desafios/01-lista-de-compras/index.html">Desafio 1</option>
+                <option value="./Desafios/02-imagem-com-link-externo/index.html">Desafio 2</option>
+                <option value="./Desafios/03-paragrafo-colorido/index.html">Desafio 3</option>
+            </optgroup>
+        </select>
     </div>
 
-    <div>
-        <h2>Modulo-html-I</h2>
-        <a href="./Modulo-html-I/01-input-texto/index.html">aula 1</a>
-        <a href="./Modulo-html-I/02-input-number-password-submit/index.html">aula 2</a>
-        <a href="./Modulo-html-I/03-checkbox-radio/index.html">aula 3</a>
-        <a href="./Modulo-html-I/04-select/index.html">aula 4</a>
-        <a href="./Modulo-html-I/05-textarea/index.html">aula 5</a>
-        <a href="./Modulo-html-I/06-button/index.html">aula 6</a>
-        <a href="./Modulo-html-I/07-formulario/index.html">aula 7</a>
-        <a href="./Modulo-html-I/08-tag-semantica/index.html">aula 8</a>
-    </div>
-    
-    <div>
-        <h2>Modulo-css-I</h2>
-        <a href="./Modulo-css-I/01-especificidade-efeito-cascata/index.html">Aula 1</a>
-        <a href="./Modulo-css-I/02-estilos-de-texto/index.html">Aula 2</a>
-    </div>
-    
-    <div>
-        <h2>desafios</h2>
-        <a href="./Desafios/01-lista-de-compras/index.html">Desafio 1</a>
-        <a href="./Desafios/02-imagem-com-link-externo/index.html">Desafio 2</a>
-        <a href="./Desafios/03-paragrafo-colorido/index.html">Desafio 3</a>
-    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
+    <script>
+        $(document).ready(function () {
+
+            $('#aulas').on('change', function () {
+                var url = $(this).val();
+                if (url) {
+                    window.open(url);
+                }
+                return false;
+            });
+        });
+    </script>
 </body>
+
 </html>
