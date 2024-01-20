@@ -1,0 +1,32 @@
+/* selector::pseudo-elemento{
+    propriedade: valor;
+} */
+
+.first-letter::first-letter{
+    color:purple;
+}
+
+.first-line::first-line{
+    color:blueviolet;
+}
+
+.first-line::first-letter{
+    color:red;
+}
+
+li::marker {
+    color: blue;
+    font-size: 23px;
+}
+
+.before::before {
+    content: url(exemplo.jpg);
+}
+
+.after::after {
+    content: "";
+    background: url(exemplo,jpg) center center no-repeat;
+    display: inline-block;
+    width: 85px;
+    height: 85px;
+}
