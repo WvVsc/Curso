@@ -1,0 +1,14 @@
+.conteiner {
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: column wrap;
+}
+
+.conteiner div {
+    background-color: blueviolet;
+    color: black;
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+}
